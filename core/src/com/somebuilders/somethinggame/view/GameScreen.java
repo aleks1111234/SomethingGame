@@ -17,7 +17,7 @@ public class GameScreen implements Screen {
     public void show() {
         batch = new SpriteBatch();
         freddyTexture = new Texture(Gdx.files.internal("Freddy.png"));
-        freddy = new Freddy(freddyTexture,0,0,242,400);
+        freddy = new Freddy(freddyTexture,30,0,242,400);
     }
 
     @Override
